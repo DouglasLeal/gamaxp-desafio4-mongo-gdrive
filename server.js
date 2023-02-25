@@ -1,13 +1,11 @@
-import express from "express";
+import dotenv from "dotenv";
 
-const app = express();
+import app from "./src/app.js";
 
-app.get("/", (req, res) => {
-    res.send("Hello");
-});
+dotenv.config();
 
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-    console.log(`Servidor rodando na porta ${PORT}`);
+    console.log(`Servidor rodando na porta ${PORT}...`);
 });
