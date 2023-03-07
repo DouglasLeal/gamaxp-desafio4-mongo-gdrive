@@ -5,6 +5,7 @@ const validationRules = {
         nome: Joi.string().required(),
         foto: Joi.any(),
         preco: Joi.number().required(),
+        quantidade: Joi.number().required(),
         descricao: Joi.string().required(),
         categoria: Joi.required(),
     })

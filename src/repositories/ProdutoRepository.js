@@ -18,6 +18,7 @@ class ProdutoRepository {
             nome: dados.nome,
             foto: dados.foto,
             preco: dados.preco,
+            quantidade: dados.quantidade,
             descricao: dados.descricao,
             categoria: dados.categoria,
         });
@@ -32,6 +33,7 @@ class ProdutoRepository {
                 nome: dados.nome,
                 foto: dados.foto,
                 preco: dados.preco,
+                quantidade: dados.quantidade,
                 descricao: dados.descricao,
                 categoria: dados.categoria,
             }
