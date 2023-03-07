@@ -14,6 +14,10 @@ const produtoSchema = new mongoose.Schema({
         type: Number,
         required: "O campo preço é obrigatório."
     },
+    quantidade: {
+        type: Number,
+        required: "O campo quantidade é obrigatório."
+    },
     descricao: {
         type: String,
         trim: true,
