@@ -25,7 +25,6 @@ class AuthMiddleware {
 
         try {
             const data = jwt.verify(token, process.env.SECRET);
-
             req.AUTH = data;
 
             return next();

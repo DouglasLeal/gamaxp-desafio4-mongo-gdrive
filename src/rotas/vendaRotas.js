@@ -7,7 +7,7 @@ import validation from "../validations/vendaValidation.js";
 const router = express.Router();
 
 router
-    .get("/", Controller.listar)
+    .get("/", auth.autenticar, Controller.listar)
     .get("/:id", Controller.buscarPorId)
     .post("/", auth.autenticar, validation, Controller.criar)
     .put("/:id", Controller.atualizar)
