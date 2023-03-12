@@ -1,8 +1,8 @@
 import Venda from "../models/Venda.js";
 
 class VendaRepository {
-    static async listar() {
-        return await Venda.find();
+    static async listar(usuario) {
+        return await Venda.find({usuario});
     }
 
     static async buscarPorId(id) {
