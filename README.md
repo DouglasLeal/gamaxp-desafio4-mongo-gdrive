@@ -19,6 +19,8 @@
  <a href="https://github.com/fernandofolster/desafiofinal-frontend">Clique aqui para acessar o repositório </a>
 </div>
 
+
+
 <br>
 
 <h2 align="center">Instalação</h2>
@@ -46,12 +48,30 @@ GOOGLE_CLIENT_X509_CERT_URL = url
 <pre>npm start</pre>
 <br>
 
+<h2 align="center">Deploy</h2>
+<div>
+    <p>
+        Se preferir pode fazer as requisições direto para o link <a href="https://gamaxp-desafio4-grupo6.onrender.com">https://gamaxp-desafio4-grupo6.onrender.com</a>     </p>
+        
+- Conta admin já cadastrada:
+<pre>
+{
+    "email": "admin@email.com",
+    "senha": "teste123"
+}
+</pre>            
+</div>
+
 <h2 align="center">Documentação da API</h2>
 <div align="center"> 
   <a href="https://documenter.getpostman.com/view/10195936/2s935uGfnH">Clique aqui para acessar a documentação</a>
 </div>
 
 <br>
+
+<h2 align="center">Imagens</h2>
+<p>Para visualizar as imagens dos produtos basta acessar: <code>https://drive.google.com/uc?export=view&id=produto.foto</code></p>
+<p>Obs.: Produto.foto deve ser substituído pela string gerada ao criar o produto.</p>
 
 <h2 align="center">Tecnologias</h2>
 
