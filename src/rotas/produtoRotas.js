@@ -9,8 +9,8 @@ const router = express.Router();
 const upload = multer();
 
 router
-    .get("/", auth.autenticar, Controller.listar)
-    .get("/:id", auth.autenticar, Controller.buscarPorId)
+    .get("/", Controller.listar)
+    .get("/:id", Controller.buscarPorId)
     .post("/", auth.autenticarAdm, upload.any(), validation, Controller.criar)
     .put("/:id", auth.autenticarAdm, upload.any(), validation, Controller.atualizar)
     .delete("/:id", auth.autenticarAdm, Controller.excluir);
